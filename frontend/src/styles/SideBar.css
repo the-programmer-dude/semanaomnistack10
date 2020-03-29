@@ -1,0 +1,15 @@
+aside{
+    width: 320px;
+    background-color: #ffff;
+    box-shadow: 0 0 14 0 rgba(0, 0, 0, 0.02);
+    border-radius: 2px;
+    padding: 30px 20px;
+}
+
+aside h1 strong{
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    color: #333;
+}
+
