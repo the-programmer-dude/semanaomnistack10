@@ -18,6 +18,7 @@ setUpSocketIO(server)
 const routes = require("./routes")
 
 mongoose.Promise = global.Promise
+//Dont try to connect to my database, because i change the ip whitelist and the password
 mongoose.connect("mongodb+srv://ROOT:ROOT@cluster0-awbmu.mongodb.net/week10?retryWrites=true&w=majority", 
 {
     useNewUrlParser: true, 
